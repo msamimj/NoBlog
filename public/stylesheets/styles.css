@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body, html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    margin: 0;
+    background-color: darkseagreen;
+}
+
+.container{
+    max-width: 1000px;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    background: white;
+}
+
+.logo{
+    font-size: 4em;
+    line-height: 1.5em;
+    font-family: 'Pacifico', cursive;
+    color: forestgreen;
+}
+
+.menu{
+    background-color: dimgray;
+    height: 3em;
+}
+
+.menu ul{
+    margin: 0;
+    padding: 0;
+    height: 3em;
+    line-height: 3em;
+    color: white;
+}
+
+.menu li{
+    display: inline;
+    padding: 0 2em;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+}
